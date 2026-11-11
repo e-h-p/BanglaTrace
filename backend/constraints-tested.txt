@@ -1,0 +1,19 @@
+# Principal dependency versions used for the recorded validation on Python 3.11.9.
+# This is a constraints file, not a complete transitive lockfile.
+# Optional: pip install -r backend/requirements.txt -c backend/constraints-tested.txt
+fastapi==0.162.0
+uvicorn==0.52.0
+pydantic==2.14.2
+python-multipart==0.0.32
+python-dotenv==1.2.4
+PyMuPDF==1.27.2.3
+numpy==2.4.6
+rapidfuzz==3.14.5
+rank-bm25==0.2.2
+sentence-transformers==5.7.0
+httpx==0.28.1
+pytest==9.2.0
+pytest-asyncio==1.4.1
+torch==2.12.0
+transformers==5.12.1
+huggingface-hub==1.17.0
